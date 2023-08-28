@@ -39,7 +39,7 @@ const Checkout = (props) => {
     const formIsValid = enteredNameIsValid && enteredStreetIsValid && enteredCityIsValid && enteredPostalIsValid;
 
 
-    if(formIsValid){
+    if(!formIsValid){
         return;
     }
 
